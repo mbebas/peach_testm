@@ -27,7 +27,7 @@ angular.module(peachRc.framework.angular.module, [
   angularMaterial,
   angularRoute,
   angularSanitize,
-  'ngPeach.ui'  // Need to fix this to export properly from ngPeach
+  'ngPeach.ui' // Need to fix this to export properly from ngPeach
 ])
   .config(routing)
   .controller(Home.controllerName, Home.controller);
